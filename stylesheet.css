@@ -1,0 +1,98 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pyramid-container {
+    text-align: center;
+  }
+  
+  #selfactualization {
+      border-bottom: 100px solid #9C79ED;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      height: 0;
+      width: 0px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+  
+  #esteem {
+      line-height: 50px;
+      border-bottom: 50px solid #20BFF7;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 0;
+      width: 100px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+  
+  #socialbelonging {
+      line-height: 50px;
+      position: relative;
+      border-bottom: 50px solid #1FAA13;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 0;
+      width: 150px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+  
+  #safety {
+    line-height: 50px;
+    position: relative;
+    border-bottom: 50px solid #F4922D;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 200px;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  
+  #physiological {
+      line-height: 50px;
+      position: relative;
+      border-bottom: 50px solid #D82656;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      height: 0;
+      width: 250px;
+      margin-right:auto;
+      margin-left:auto;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+/* 
+Keep this at the bottom of the CSS
+Max width: 1920 X 1080
+Min width: 360px
+@media-only screen and (max-width){
+header nav a{
+  display: none;
+}
+.inParagraphIMG{
+}
+
+Will happen at less than 600px
+@media only screen and (max-width: 600px){
+  in.ParagraphImg{
+    width: 100%;
+*/
